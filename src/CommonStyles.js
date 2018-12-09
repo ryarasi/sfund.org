@@ -11,6 +11,3 @@ export const ContentWrapper = styled.div`
     padding: 100px 75px 25px 75px;
   }
 `;
-export const CenteredText = styled.div`
-  text-align: center;
-`;

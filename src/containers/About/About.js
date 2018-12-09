@@ -1,11 +1,11 @@
 import React from "react";
-import {CenteredText} from '../CommonStyles';
+// import {CenteredText} from './../../CommonStyles';
 import "./About.css";
 //
 
 export default () => (
   <div>
-    <CenteredText>
+    <div style={{textAlign: 'center'}}>
       <h2>About us</h2>
       <br />
       <p>
@@ -13,7 +13,7 @@ export default () => (
         We are committed to doing what is necessary with transparency,
         efficiency and inclusivity.
       </p>
-    </CenteredText>
+    </div>
     <br />
     <br />
     <br />

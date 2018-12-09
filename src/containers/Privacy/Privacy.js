@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-static";
-import { CenteredText } from "../CommonStyles";
+// import { CenteredText } from "../CommonStyles";
 //
 
 export default () => (
   <div>
-    <CenteredText>
+    <div style={{textAlign: 'center'}}>
       <h2>Privacy policy</h2>
       <br />
-    </CenteredText>
+    </div>
     <p>
       This Privacy Policy governs the manner in which Shuddhi Fund collects,
       uses, maintains and discloses information collected from users (each, a
