@@ -8,6 +8,6 @@ export default () => (
   <span>
     Shuddhi<p>Fund</p>
   </span>
-</div>;
+</div>
 );
 

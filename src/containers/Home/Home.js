@@ -5,7 +5,7 @@ import React from "react";
 // </CenteredText>
 
 export default () => (
-  <div style={{ marginTop: 50, textAlign: 'center' }}>
+  <div style={{ marginTop: 100, textAlign: 'center' }}>
     <p>Welcome to the official website of Shuddhi Fund</p>
   </div>
 );
