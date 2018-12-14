@@ -30,7 +30,7 @@
   background: white;
   padding: 5px 10px 5px 0px;
   border-top: .01em solid rgba(0,0,0,.5);
-  text-align: left;
+  /* text-align: left; */
 }
 .bottomnav a{
   text-decoration: none;
@@ -44,4 +44,8 @@
 
 .logo {
   margin: -10px;
+}
+
+.copyright{
+  color: grey;
 }

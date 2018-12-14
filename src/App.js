@@ -60,6 +60,7 @@ const App = () => (
                Github
             </a>
             <span className="right-menu">
+            <span className="copyright">&copy; Shuddhi Fund 2018</span>
               <Link to="/privacy">Privacy</Link>
             </span>
           </nav>
