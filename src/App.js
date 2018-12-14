@@ -14,7 +14,6 @@ const isRouteActive = (url, route) => {
 const App = () => (
   <div>
     <Head>
-      <link rel="shortcut icon" type="image/png" href="./Assets/favicon.ico" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -48,8 +47,8 @@ const App = () => (
               rel="noreferrer noopener"
               className="left-menu-item"
             >
-              <i className="fab fa-twitter" />
-              Twitter
+              {/* <i className="fab fa-twitter" /> */}
+               Twitter
             </a>
             <a
               href="https://github.com/shuddhifund/shuddhifund-org"
@@ -57,7 +56,8 @@ const App = () => (
               rel="noreferrer noopener"
               className="left-menu-item"
             >
-              <i className="fab fa-github" /> Github
+              {/* <i className="fab fa-github" /> */}
+               Github
             </a>
             <span className="right-menu">
               <Link to="/privacy">Privacy</Link>

@@ -1,15 +1,15 @@
-import React from 'react'
-import { Head } from 'react-static'
-import './Contact.css'
+import React from "react";
+import { Head } from "react-static";
+import "./Contact.css";
 
 export default () => (
   <div>
     <Head>
       <title>Contact | Shuddhi Fund</title>
     </Head>
-    <div style={{ textAlign: 'center', fontSize: '1.2em' }}>
+    <div style={{ textAlign: "center", fontSize: "1.2em" }}>
       <p>
-        To suggest features or report bugs on this website, visit{' '}
+        To suggest features or report bugs on this website, visit{" "}
         <a
           href="https://github.com/shuddhifund/shuddhifund-org"
           rel="noopener noreferrer"
@@ -21,19 +21,23 @@ export default () => (
       </p>
 
       <p>
-        Find us on{' '}
-        <a href="https://twitter.com/shuddhifund" rel="noopener noreferrer" target="_blank">
+        Find us on{" "}
+        <a
+          href="https://twitter.com/shuddhifund"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           {/* <Icon name="twitter" /> */}
           Twitter
         </a>
       </p>
     </div>
     <br />
-    <hr style={{width: '20vw'}}/>
+    <hr style={{ width: "20vw" }} />
     <br />
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: "center" }}>
       <h3>Contact Us</h3>
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
         <div>
           <div className="label">
             <label>Name</label>
@@ -67,4 +71,4 @@ export default () => (
       </form>
     </div>
   </div>
-)
+);
