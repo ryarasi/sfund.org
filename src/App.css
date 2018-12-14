@@ -7,7 +7,7 @@
   background: white;
   padding: 10px 30px 10px 10px;
   border-bottom:.01em solid rgba(0,0,0,.5);
-  text-align: right;
+  text-align: left;
 }
 .topnav a {
   text-decoration: none;
@@ -17,6 +17,7 @@
 .topnav a:hover {
   color:#0099ff;
 }
+
 .content {
   padding: 40px 0px 40px 0px;
 }
@@ -27,11 +28,20 @@
 }
 .bottomnav {
   background: white;
-  padding: 5px 0px 5px 0px;
+  padding: 5px 10px 5px 0px;
   border-top: .01em solid rgba(0,0,0,.5);
+  text-align: left;
 }
 .bottomnav a{
   text-decoration: none;
   color: gray;
   padding: 10px;
+}
+
+.right-menu {
+  float: right;
+}
+
+.logo {
+  margin: -10px;
 }

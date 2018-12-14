@@ -17,8 +17,7 @@
     "react-markdown": "^3.1.0",
     "react-moment": "^0.7.0",
     "react-router": "^4.2.0",
-    "react-static": "^5.1.10",
-    "styled-components": "^4.1.2"
+    "react-static": "^5.1.10"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

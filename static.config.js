@@ -2,7 +2,7 @@ const path = require('path')
 
 export default {
   getSiteData: () => ({
-    title: 'React Static with Netlify CMS',
+    title: 'Shuddhi Fund',
   }),
   getRoutes: async () => {
     return [

@@ -1,8 +1,13 @@
 import React from 'react'
+import { Head } from 'react-static'
+import './Contact.css'
 
 export default () => (
   <div>
-    <div style={{textAlign: 'center'}}>
+    <Head>
+      <title>Contact | Shuddhi Fund</title>
+    </Head>
+    <div style={{ textAlign: 'center', fontSize: '1.2em' }}>
       <p>
         To suggest features or report bugs on this website, visit{' '}
         <a
@@ -23,35 +28,42 @@ export default () => (
         </a>
       </p>
     </div>
-    <br/>
-    <hr/>
-    <br/>
+    <br />
+    <hr style={{width: '20vw'}}/>
+    <br />
     <div style={{ textAlign: 'center' }}>
-    <h3>Contact Us</h3>
+      <h3>Contact Us</h3>
       <form name="contact" method="POST" netlify>
-        <p>
-          <label>
-            Name <input autoFocus type="text" name="name" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Email <input type="email" name="email" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Subject <input type="text" name="subject" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message <textarea name="message" />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+        <div>
+          <div className="label">
+            <label>Name</label>
+          </div>
+          <input autoFocus type="text" name="name" />
+        </div>
+        <div>
+          <div className="label">
+            <label>Email</label>
+          </div>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <div className="label">
+            <label>Subject</label>
+          </div>
+          <input type="text" name="subject" />
+        </div>
+        <div>
+          <div className="label">
+            <label>Message</label>
+          </div>
+          <textarea name="message" />
+        </div>
+        <br />
+        <div>
+          <button type="submit" className="submit">
+            Send
+          </button>
+        </div>
       </form>
     </div>
   </div>
