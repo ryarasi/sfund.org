@@ -37,7 +37,7 @@ export default () => (
     <br />
     <div style={{ textAlign: "center" }}>
       <h3>Contact Us</h3>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" data-netlify="true">
         <div>
           <div className="label">
             <label>Name</label>
